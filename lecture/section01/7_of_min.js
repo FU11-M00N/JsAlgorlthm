@@ -11,5 +11,13 @@ function solution(arr) {
    return min;
 }
 
+function solution2(arr) {
+   let min = Math.min(...arr);
+
+   return min;
+}
+
 console.log(solution([5, 3, 7, 11, 2, 15, 17]));
 console.log(solution([1241, 2142, 2417, 4411, 1242, 12415, 12144217]));
+console.log(solution2([5, 3, 7, 11, 2, 15, 17]));
+console.log(solution2([1241, 2142, 2417, 4411, 1242, 12415, 12144217]));
