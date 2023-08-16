@@ -15,10 +15,10 @@ function solution(data) {
    for (let i = 0; i < data.length; i++) {
       if (data[i] === 1) {
          tmp = tmp + 1;
+         answer += tmp;
       } else if (data[i] === 0) {
          tmp = 0;
       }
-      answer += tmp;
    }
    return answer;
 }
